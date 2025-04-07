@@ -1,11 +1,14 @@
-// app/page.tsx
+// app/about/page.tsx
 import Link from "next/link";
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <h1 className="text-4xl font-bold mb-8">Welcome to My Blog</h1>
-      <p className="mb-4">This is the homepage. Check out the blog!</p>
+      <h1 className="text-4xl font-bold mb-8">About Me</h1>
+      <p className="mb-4 max-w-prose text-center">
+        This is where you can write something about yourself or the purpose of
+        this website. It's currently a static page within the Next.js project.
+      </p>
       <nav>
         <ul className="flex space-x-4">
           <li>
